@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   repository: netboxcommunity/netbox
-  tag: develop
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   name: netbox
